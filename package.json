@@ -1,6 +1,6 @@
 {
   "name": "fopjs",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "FO xml tags for React",
   "main": "index.js",
   "scripts": {
