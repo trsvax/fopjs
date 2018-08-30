@@ -4,7 +4,8 @@
   "description": "FO xml tags for React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node test/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,16 @@
   "bugs": {
     "url": "https://github.com/trsvax/fopjs/issues"
   },
-  "homepage": "https://github.com/trsvax/fopjs#readme"
+  "homepage": "https://github.com/trsvax/fopjs#readme",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
 }
