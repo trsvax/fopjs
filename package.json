@@ -2,7 +2,7 @@
   "name": "fopjs",
   "version": "1.1.3",
   "description": "FO xml tags for React",
-  "main": "index.js",
+  "main": "./build/FO.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "babel-node test/index.js",
